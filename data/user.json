@@ -1,0 +1,30 @@
+[
+  {
+    "email": "ouali.sofiane@gmail.com",
+    "password": "OualiSOF2015",
+    "civility": "Mr",
+    "lastName": "sofiane",
+    "firstName": "ouali",
+    "nationality": "-Algérie",
+    "postalCode": "15000",
+    "city": "azazga",
+    "phone": "0555112244",
+    "profilName": "Étudiants",
+    "field": "Informatique",
+    "level": "Master 2"
+  },
+  {
+    "email": "chercheur@example.com",
+    "password": "Chercheur2025",
+    "civility": "Mme",
+    "lastName": "Dupont",
+    "firstName": "Marie",
+    "nationality": "-Maroc",
+    "postalCode": "75000",
+    "city": "Paris",
+    "phone": "0600000000",
+    "profilName": "Chercheurs",
+    "field": "Physique",
+    "level": "Master 2"
+  }
+]
