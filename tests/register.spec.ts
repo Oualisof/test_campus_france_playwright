@@ -22,8 +22,7 @@ test.describe('Plan de test inscription Campus France', () => {
     await registerPage.selectFieldAndLevel(userData.field, userData.level);
     await registerPage.acceptConditions();
     await registerPage.submitForm();
-    // Optionnel : vérification d'un texte ou d'une redirection de succès
-    // await expect(page.getByText(/inscription réussie/i)).toBeVisible();
+
   });
 
   test('Remplir le formulaire pour le profil Chercheurs', async ({ page }) => {
@@ -38,7 +37,6 @@ test.describe('Plan de test inscription Campus France', () => {
     await registerPage.selectFieldAndLevel(userData.field, userData.level);
     await registerPage.acceptConditions();
     await registerPage.submitForm();
-    // Optionnel : vérification d'un texte ou d'une redirection de succès
-    // await expect(page.getByText(/inscription réussie/i)).toBeVisible();
+
   });
 });

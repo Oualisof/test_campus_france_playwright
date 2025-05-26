@@ -1,5 +1,8 @@
-class RegisterPage {
-  constructor(page) {
+import { Page } from "@playwright/test";
+
+export class RegisterPage {
+  page :Page;
+  constructor( page :Page) {
     this.page = page;
   }
     static profileIdMap = {
@@ -18,7 +21,7 @@ class RegisterPage {
   }
 
   async selectCivility(civility) {
-    // Sélectionne la civilité (Monsieur/Madame/etc.)
+    // SPlectionne la civilité (Monsieur/Madame/etc.)
     await this.page.getByText(civility, { exact: true }).click();
   }
 
