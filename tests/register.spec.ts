@@ -7,7 +7,7 @@ test.describe('Plan de test inscription Campus France', () => {
 
   test.beforeEach(async ({ page }) => {
     registerPage = new RegisterPage(page);
-    await page.goto('https://www.campusfrance.org/fr/user/register');
+    await page.goto('/fr/user/register');
   });
 
   test('Remplir le formulaire pour le profil Étudiants', async ({ page }) => {
